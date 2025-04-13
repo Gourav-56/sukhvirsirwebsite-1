@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const boardMembers = [
   {
@@ -23,14 +24,37 @@ const boardMembers = [
   },
 ];
 
+// Framer Motion variants
+const sectionVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: 'easeOut'
+    }
+  }
+};
+
 const BoardMembers = () => {
   return (
-    <section id="board" className="py-20 bg-gray-50">
+    <motion.section
+      id="board"
+      className="py-20 bg-gray-50"
+      variants={sectionVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Our Board Members</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {boardMembers.map((member, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
+            >
               <div className="relative">
                 <img
                   src={member.image}
@@ -47,7 +71,7 @@ const BoardMembers = () => {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
