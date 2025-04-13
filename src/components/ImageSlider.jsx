@@ -12,7 +12,7 @@ const images = [
   },
   {
     url: 'https://images.unsplash.com/photo-1559223607-a43c990c692c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29tbXVuaXR5JTIwbWVldGluZ3xlbnwwfHwwfHx8MA%3D%3D',
-    title: 'Community Outreach Program'
+    title: 'Community Program'
   },
   {
     url: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
