@@ -53,20 +53,24 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">Location</h3>
             <div className="w-full h-64 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596073366!2d-74.25987368715491!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1645645437584!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.378336208484!2d76.6727001148729!3d30.6898992816544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef1a68a2d6d7%3A0x7a2e76cfd77e153a!2sCo-Operative%20Homz%2C%20JLPL%2C%20Sector%2091%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20140308!5e0!3m2!1sen!2sin!4v1713625600000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen
+                allowFullScreen=""
                 loading="lazy"
-                title="XYZ Society Location"
-              ></iframe>
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Mundi Society Location"
+              />
             </div>
           </div>
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p>&copy; {new Date().getFullYear()} XYZ Society. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} THE MUNDI(S) House Building
+            Society. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
