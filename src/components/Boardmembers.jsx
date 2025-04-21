@@ -3,25 +3,25 @@ import { motion } from 'framer-motion';
 
 const boardMembers = [
   {
-    name: 'John Doe',
+    name: 'Karam Chand',
     position: 'President',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'https://res.cloudinary.com/du4zisjfu/image/upload/v1744732882/karam_o1qjnp.jpg',
   },
+  // {
+  //   name: 'Jane Smith',
+  //   position: 'Vice President',
+  //   image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+  // },
   {
-    name: 'Jane Smith',
-    position: 'Vice President',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-  },
-  {
-    name: 'Mike Johnson',
+    name: 'Anish',
     position: 'Secretary',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+    image: 'https://res.cloudinary.com/du4zisjfu/image/upload/v1744732793/anish_h8nmje.jpg',
   },
-  {
-    name: 'Sarah Williams',
-    position: 'Treasurer',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-  },
+  // {
+  //   name: 'Sarah Williams',
+  //   position: 'Treasurer',
+  //   image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+  // },
 ];
 
 // Framer Motion variants
