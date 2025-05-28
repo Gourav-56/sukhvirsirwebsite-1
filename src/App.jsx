@@ -98,13 +98,10 @@ function App() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">About Our Society</h2>
               <p className="text-lg text-gray-600 mb-6">
-                XYZ Society has been at the forefront of community development since its inception. 
-                We believe in fostering meaningful connections and creating lasting impact through 
-                our various initiatives and programs.
+                The Mundi(s) SS Co-op H/B Society Ltd. is a well-established residential society comprising 82 flats. It is equipped with four lifts, a generator, boom barrier, and solar water heaters, ensuring comfort and sustainability. 
               </p>
               <p className="text-lg text-gray-600">
-                Our mission is to empower individuals, strengthen communities, and create positive 
-                change through collaborative efforts and innovative solutions.
+                Parking is ample, with spaces available both in the basement and on the ground floor. The society also features a spacious green area that includes swings and play areas for children, offering a serene and family-friendly environment.
               </p>
             </div>
             <div>
